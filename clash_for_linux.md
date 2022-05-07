@@ -7,7 +7,7 @@
    sudo chmod +x /usr/bin/clash
    ```
 5. 获取订阅地址：
-    https://******，命名为sockboom
+    $订阅地址$，命名为sockboom
 6. 下载配置：
    ```
    wget -O config.yaml $订阅地址$
