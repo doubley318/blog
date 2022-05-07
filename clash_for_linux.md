@@ -10,7 +10,7 @@
     $订阅地址$，命名为sockboom
 6. 下载配置：
    ```
-   wget -O config.yaml $订阅地址$
+   wget -O config.yaml $订阅地址?clash=1&log-level=info$
    ```
    得到三个文件分别为：
     config.yaml
