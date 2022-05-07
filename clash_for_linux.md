@@ -10,7 +10,7 @@
     https://******，命名为sockboom
 6. 下载配置：
    ```
-   wget -O config.yaml https:******
+   wget -O config.yaml $订阅地址$
    ```
    得到三个文件分别为：
     config.yaml
