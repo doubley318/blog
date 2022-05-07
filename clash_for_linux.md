@@ -7,10 +7,10 @@
    sudo chmod +x /usr/bin/clash
    ```
 5. 获取订阅地址：
-    https://sub-2.suki.best/sub?target=clash&new_name=true&url=https%3A%2F%2Fsockboom.me%2Flink%2FqYzQhpgNlJVwzWyy&filename=Sockboom&udp=true&config=https%3A%2F%2Fconfig.sub.suki.best%2Fsubconfig.ini，命名为sockboom
+    https://******，命名为sockboom
 6. 下载配置：
    ```
-   wget -O config.yaml https://sub-2.suki.best/sub?target=clash&new_name=true&url=https%3A%2F%2Fsockboom.me%2Flink%2FqYzQhpgNlJVwzWyy&filename=Sockboom&udp=true&config=https%3A%2F%2Fconfig.sub.suki.best%2Fsubconfig.ini?clash=1&log-level=info
+   wget -O config.yaml https:******
    ```
    得到三个文件分别为：
     config.yaml
