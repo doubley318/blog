@@ -1,4 +1,8 @@
-**clash**
+**Clash for Linux**
+
+**下面有两种方法，方法一比较繁琐，不推荐，可以直接进行方法二**
+# clash 方法1
+
 1. 下载[clash](https://github.com/Dreamacro/clash/releases)，一般选择：clash-linux-amd64-v1.8.0.gz
 2. 创建一个名为clash的文件夹
 3. 解压clash，并重命名为clash
@@ -53,3 +57,12 @@
     systemctl start clash@a307
     systemctl enable clash@a307
     ```
+
+# clash 方法2
+前面那个设置很麻烦，而且也没有UI界面，所以在经过多次查找，我发现了有人把windows版本的也写了Linux版本：
+
+https://github.com/Fndroid/clash_for_windows_pkg/releases
+
+找到Clash.for.Windows-$vision$-x64-linux.tar.gz
+
+然后下载安装即可
