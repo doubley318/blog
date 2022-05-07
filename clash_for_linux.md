@@ -32,7 +32,7 @@
 14. 检查clash是否安装成功`clash -v`
 15. 默认配置目录是 $HOME/.config/clash，将`config.yaml`, `cache.db`,`Country.mmdb`复制到此目录来
 16. 如果要使用其他目录，可以使用 -d 控制配置目录，例如，您可以使用当前目录作为配置目录`clash -d .`
-17. 在 /lib/systemd/system/ 目录下创建 clash@.service 文件写入：
+17. 在 /lib/systemd/system/ 目录下创建 `clash@.service` 文件写入：
     ```
     [Unit]
     Description=A rule based proxy in Go for %i.
