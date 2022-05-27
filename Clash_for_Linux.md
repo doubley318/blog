@@ -66,3 +66,27 @@ https://github.com/Fndroid/clash_for_windows_pkg/releases
 找到Clash.for.Windows-$vision$-x64-linux.tar.gz
 
 然后下载安装，下载完成后是一个压缩包，解压，并执行其中的 cfw 即可。
+
+## start with Linux don't work
+
+Solution:添加`/etc/xdg/autostart/cfw.desktop`，内容如下：
+
+```bash
+[Desktop Entry]
+Name=CFW
+Name[zh_CN]=Clash for windwos
+GenericName=Clash for windows
+GenericName[zh_CN]=Clash for windows
+Comment=Start Clash for windows
+Comment[zh_CN]=启动Clash for windows
+Exec=/home/user/.local/bin/cfw
+Icon=/home/user/.local/bin/cfw
+Terminal=false
+Type=Application
+Categories=System;Utility;
+StartupNotify=false
+X-GNOME-AutoRestart=false
+X-GNOME-Autostart-Notify=false
+X-KDE-autostart-after=panel
+X-KDE-StartupNotify=false
+```
