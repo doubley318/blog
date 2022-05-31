@@ -63,7 +63,7 @@
 
 https://github.com/Fndroid/clash_for_windows_pkg/releases
 
-找到Clash.for.Windows-$vision$-x64-linux.tar.gz
+找到Clash.for.Windows-$version$-x64-linux.tar.gz
 
 然后下载安装，下载完成后是一个压缩包，解压，并执行其中的 cfw 即可。
 
